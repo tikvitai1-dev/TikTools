@@ -1,6 +1,6 @@
 {
-  "buildCommand": "npm install -g pnpm && pnpm install && pnpm --filter web build",
+  "buildCommand": "npm install && npm run build",
   "outputDirectory": "apps/web/dist",
   "framework": "vite",
-  "installCommand": "npm install -g pnpm && pnpm install"
+  "installCommand": "npm install"
 }
