@@ -1,0 +1,13 @@
+{
+  "name": "indo-finity-monorepo",
+  "private": true,
+  "scripts": {
+    "dev:web": "pnpm --filter web dev",
+    "dev:server": "pnpm --filter server dev",
+    "dev:desktop": "pnpm --filter desktop dev",
+    "build": "pnpm --filter \"./**\" build"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
