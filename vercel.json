@@ -1,0 +1,5 @@
+{
+  "buildCommand": "pnpm install && pnpm --filter @indo-finity/shared build && pnpm --filter web build",
+  "outputDirectory": "apps/web/dist",
+  "framework": "vite"
+}
